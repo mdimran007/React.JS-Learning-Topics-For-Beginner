@@ -1,9 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import './myfunctionalcomponents/FreshFunctionalComponent'
-import FreshComponent from './myfunctionalcomponents/FreshFunctionalComponent';
-import FreshClassComponent from './myclasscomponents/FreshClassComponent';
-import ButtonClickEvent from './myfunctionalcomponents/ButtonClickEvent'
+import ButtonClickEvent from './myclasscomponents/ButtonClickEvent'
 
 function App() {
   return (
