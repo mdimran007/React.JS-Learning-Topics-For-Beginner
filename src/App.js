@@ -7,13 +7,16 @@ import FreshClassComponent from './myclasscomponents/FreshClassComponent';
 function App() {
   return (
     <div className="App">
-     <FreshComponent name="Md Imran"></FreshComponent>
+     {/* <FreshComponent name="Md Imran"></FreshComponent>
      <FreshComponent name="Md Rakib"></FreshComponent>
      <FreshComponent name="Md Kabir"></FreshComponent>
-     <FreshComponent name="Md Karim"></FreshComponent>
+     <FreshComponent name="Md Karim"></FreshComponent> */}
 
 
-     {/* <FreshClassComponent></FreshClassComponent> */}
+     <FreshClassComponent name="Md Imran"></FreshClassComponent>
+     <FreshClassComponent name="Md Rakib" age="25"></FreshClassComponent>
+     <FreshClassComponent name="Md Rakib"></FreshClassComponent>
+     <FreshClassComponent name="Md Rakib"></FreshClassComponent>
     </div>
   );
 }

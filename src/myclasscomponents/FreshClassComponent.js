@@ -4,7 +4,7 @@ class FreshClassComponent extends Component{
 
     render() {
         return (
-            <h1>Welcom Class Component.</h1>
+        <h1>Name: {this.props.name}, Age:{this.props.age}</h1>
         )
     }
         
