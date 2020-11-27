@@ -1,8 +1,8 @@
 import React from 'react'
 
-function FreshComponent(params) {
+function FreshComponent(props) {
     return(
-        <h1>Welcom Functional Component</h1>
+    <h1>Name: {props.name}</h1>
     )
 }
 
